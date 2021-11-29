@@ -1,20 +1,15 @@
 import React from 'react';
 import Board from './components/Board';
 
+import './styles/root.scss';
+
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <h1>TIC TAC TOE</h1>
-      <Board/>
+      <Board />
     </div>
   );
 };
 
 export default App;
-
-// "@babel/eslint-parser": "^7.16.3",
-
-// "parser": "@babel/eslint-parser",
-// "parserOptions": {
-//   "requireConfigFile": false
-// }
